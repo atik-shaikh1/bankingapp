@@ -5,8 +5,11 @@ Spring webflux security application with JWT and R2DBC Mysql
  
 ## To run the project
 spring.r2dbc.url=r2dbc:pool:mysql://localhost:3306/bankingapp
+
 spring.r2dbc.username=root
+
 spring.r2dbc.password=root
+
 Change this credentials according your local 
 
  
