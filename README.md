@@ -35,6 +35,7 @@ router - http://localhost:8080/fn/register
 
 response: 
 {
+
     "id": 2,
     "username": "atikshaikh",
     "password": "pass",
@@ -68,6 +69,7 @@ router - http://localhost:8080/fn/login
  
 
 {
+
     "username": "atikshaikh",
     "password": "pass" 
 }
@@ -86,6 +88,7 @@ authentication header - bearer jwttoken
  
 
 {
+
     "name": "atik rajjak shaikh",
 	"username": "atikshaikh",
 	"password": "pass",
@@ -102,6 +105,7 @@ authentication header - bearer jwttoken
 
 response: 
 {
+
     "statusCode": 200,
     "status": "OK",
     "id": 1,
@@ -116,6 +120,7 @@ router - http://localhost:8082/fn/apply-loan/{userId}
 authentication header - bearer jwttoken
 
 {
+
     "loanType": "Home Loan",
     "loanAmount": 12000,
     "date": "21/08/2021",
@@ -125,6 +130,7 @@ authentication header - bearer jwttoken
 
 response: 
 {
+
     "statusCode": 201,
     "status": "CREATED",
     "id": 1,
