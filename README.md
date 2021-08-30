@@ -18,8 +18,8 @@ controller - http://localhost:8080/register
 router - http://localhost:8080/fn/register
 
 {
+
     "name": "atik",
-    
 	"username": "atikshaikh",
 	"password": "pass",
 	"address": "wakadi",
