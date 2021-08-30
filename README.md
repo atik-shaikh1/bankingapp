@@ -10,14 +10,16 @@ spring.r2dbc.username=root
 
 spring.r2dbc.password=root
 
-Change this credentials according your local 
+Change these credentials according to your local computer
 
  
 # Postman Api
 ## Register new User
 
 POST request
+
 controller - http://localhost:8080/register
+
 router - http://localhost:8080/fn/register
 
 {
@@ -67,7 +69,9 @@ response:
 ## Login user
 
 POST request
+
 controller - http://localhost:8080/login
+
 router - http://localhost:8080/fn/login
  
 
@@ -79,14 +83,18 @@ router - http://localhost:8080/fn/login
 
 reponse: 
 {
+
     "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdGlrc2hhaWtoIiwiZXhwIjoxNjMwMDgwMDk4LCJpYXQiOjE2MzAwNjIwOTh9.kykPWvVGVSqh2HcGBaH8eJA7SThlEVSxd15IVQy6O-ByrSjcqQXVHzJcgPYJuEP4FVn1GGz3wXKSQlXz7QZNTg"
 }
 
 ## Update Account
 
 PUT request
+
 controller - http://localhost:8080/update-account/{id}
+
 router - http://localhost:8083/fn/update-account/{id}
+
 authentication header - bearer jwttoken
  
 
@@ -118,8 +126,11 @@ response:
 ## Apply Loan
 
 POST request
+
 controller - http://localhost:8080/apply-loan/{userId}
+
 router - http://localhost:8082/fn/apply-loan/{userId}
+
 authentication header - bearer jwttoken
 
 {
