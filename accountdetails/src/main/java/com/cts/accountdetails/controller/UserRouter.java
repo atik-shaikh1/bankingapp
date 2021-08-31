@@ -15,7 +15,7 @@ public class UserRouter {
 	@Bean
 	public RouterFunction<ServerResponse> userRoute(UserHandler userHandler) {
 
-		return RouterFunctions.route(PUT("/update-account-a/{id}").and(accept(APPLICATION_JSON)),
+		return RouterFunctions.route(PUT("/update-account/{id}").and(accept(APPLICATION_JSON)),
 				userHandler::updateAccountDetails);
 	}
 
